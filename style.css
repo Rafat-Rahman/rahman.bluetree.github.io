@@ -6,7 +6,7 @@
 
 a {
 	text-decoration: underline;
-	color: #0F8C8C;
+	color: #3008a9;
 }
 
 a:hover {
@@ -42,7 +42,7 @@ h2 {
 }
 
 h2,h3,h4 {
-	color: #2C2B2B;
+	color: #241c9b;
 	margin-bottom: 1em;
 }
 
@@ -86,7 +86,7 @@ ul h4 {
 }
 
 .date {
-	background: #6E6E6E;
+	background: #3209d5;
 	padding: 5px 6px 5px 6px;
 	margin: 0 6px 0 0;
 	color: #FFFFFF;
@@ -113,18 +113,18 @@ ul h4 {
 #footer {
 	margin: 40px 0 120px 0;
 	text-align: center;
-	color: #8C8B8B;
+	color: #0f19ca;
 	text-shadow: 0 1px 0 #FFFFFF;
 }
 
 #footer a {
-	color: #8C8B8B;
+	color: #370f9c;
 }
 
 #header {
 	height: 75px;
 	position: relative;
-	background: #6E6E6E url(images/img03.jpg) top left no-repeat;
+	background: #312fba url(images/img04.png) top left no-repeat;
 	padding: 45px;
 	color: #FFFFFF;
 	width: 888px;
@@ -171,13 +171,13 @@ ul h4 {
 #menu {
 	padding: 0 45px 0 45px;
 	position: relative;
-	background: #209D9D url(images/img02.gif) repeat-x top left;
+	background: #101beb url(images/img02.gif) repeat-x top left;
 	margin: 0;
 	height: 60px;
 	width: 890px;
-	border-top: solid 1px #5AD7D7;
-	border-bottom: solid 1px #1C7575;
-	text-shadow: 0 1px 1px #007D7D;
+	border-top: solid 1px #0a1df0;
+	border-bottom: solid 1px #2e07da;
+	text-shadow: 0 1px 1px #0808b3;
 }
 
 #menu ul {
@@ -204,30 +204,30 @@ ul h4 {
 	display: inline-block;
 	border-left: 6px solid transparent;
 	border-right: 6px solid transparent;
-	border-top: 7px solid #1C7575;
+	border-top: 7px solid #1c03dd;
 	margin-left: 8px;
 	position: relative;
 	top: -1px;
 }
 
 #menu ul li.active {
-	background: #1C7575;
-	border-top: solid 1px #1A6B6B;
-	border-bottom: solid 1px #5AD7D7;
+	background: #1403d2;
+	border-top: solid 1px #1704e6;
+	border-bottom: solid 1px #1105e3;
 	border-radius: 3px;
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
 
 #menu ul li.active span b {
-	border-top-color: #165E5E;
+	border-top-color: #1607ef;
 }
 
 .dropotron {
-	background: rgba(32,157,157,0.9);
-	border-top: solid 1px #5AD7D7;
-	border-bottom: solid 1px #1C7575;
-	text-shadow: 0 1px 1px #007D7D;
+	background: rgba(38, 2, 239, 0.9);
+	border-top: solid 1px #0f04e2;
+	border-bottom: solid 1px #1302cb;
+	text-shadow: 0 1px 1px #0303db;
 	list-style: none;
 	margin: 0;
 	padding: 15px 10px 15px 10px;
@@ -312,8 +312,8 @@ ul h4 {
 #page-bottom {
 	position: relative;
 	margin: 0;
-	background: #6E6E6E url(images/img03.jpg) top left no-repeat;
-	border: solid 1px #7E7E7E;
+	background: #1b05c7 url(images/img03.jpg.png) top left no-repeat;
+	border: solid 1px #190bda;
 	width: 888px;
 	padding: 45px 45px 0 45px;
 	color: #DCDCDC;
@@ -358,7 +358,7 @@ ul h4 {
 	margin-left: 1em;
 	color: #FFFFFF;
 	padding: 10px;
-	background: #2FACAC;
+	background: #1409e2;
 	border: 0;
 }
 
@@ -410,7 +410,7 @@ ul h4 {
 }
 
 #slider .indicator span.active {
-	background: #6E6E6E;
+	background: #1e07cc;
 }
 
 #wrapper {
