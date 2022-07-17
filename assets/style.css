@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 10px;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #eff4fd;
+    position: relative;
+}
+.title{
+    font-size: 30px; text-transform: uppercase; color: orange; font-weight: 600;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul{
+    margin-top: -10px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover{
+    color: crimson;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: crimson;
+    
+}
+
+.detel p{
+    color: #555;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: crimson;
+}
+
+
+
+
+
+
+/* ----------------------- */
+/* ----------------------- */
+/* ------------ABOUT----------- */
+/* ----------------------- */
+/* ----------------------- */
+#about .about{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column-reverse;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.about p{
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
+#about .col-left{
+    width: 250px;
+    height: 360px;
+}
+#about .about-img img{
+    border-radius: 0;
+    height: 100%;
+    width: 80%;
+    margin-left: -65px;
+}
+#about .about-img{
+    position: relative;
+    border: 10px solid white;
+    height: 100%;
+}
+#about .about-img::after{
+    position: absolute;
+    content: "";
+    top: 19px;
+    left: 0;
+    width: 78%;
+    height: 78%;
+    border: 7px solid black !important;
+    z-index: -1;
+}
+#about .col-right{
+    width: 100%;
+}
+
+.cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+.cta:hover{
+    color: white;
+    background-color: crimson;
+}
+#about .col-right h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    letter-spacing: .3px;
+}
+#about .col-right p{
+    font-size: 17px;
+    line-height: 35px;
+    text-align: justify;
+}
+#about .col-right .cta{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+
+@media only screen and (min-width:768px){
+    /* DEFAULT */
+        .cta{
+            padding: 10px 10px;
+            letter-spacing: .1px;
+        }
+        .section-title{
+            font-size: 2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    #about .about{
+        flex-direction: row;
+    }
+    #about .col-left{
+        width: 600px;
+        height: 400px;
+        padding-left: 60px;
+
+    }
+    #about .col-left .about-img::after{
+        top: 34px;
+        left: -45px;
+        height: 98%;
+        border: 10px solid crimson;
+    }
+}
+
+
+
+
+
+
+
+/* ----------------------------
+// PROGRESS BAR-------------
+// ---------------------------- */
+.progress-bar{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    box-shadow: 2px 5px 30px #a9a3a3;
+    margin: 0 auto;
+    margin: 2rem auto;
+    text-align: center;
+    padding-top: 2.5rem;
+    border-radius: 30px;
+}
+.progress-bar h1{
+    position: absolute;
+}
+.container{
+    display: flex;
+    width: 400px;
+    padding: 50px 0;
+    border-radius: 8px;
+    row-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+.circular-progress{
+    position: relative;
+    height: 195px;
+    width: 195px;
+    border-radius: 50%;
+    background: conic-gradient(crimson 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color: crimson;
+    font-family: poppins;
+}
+.text{
+    font-size: 25px;
+    font-weight: 500;
+    color: crimson;
+    font-family: poppins;
+}
+
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* -------Contact Section ----------- */
+#contact{
+    margin: 7rem 0 10rem 0;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 2rem auto;
+}
+.contact h1{
+    font-size: 25px;
+}
+.contact .left{
+    flex-basis: 45%;
+}
+.contact .left .box{
+    margin: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact .left .box label{
+    font-size: 1.4rem;
+    font-weight: 600;
+    flex-basis: 30%;
+}
+.contact .left .box input{
+    flex-basis: 70%;
+    border: none;
+    background-color: #888787;
+    padding: 1rem;
+}
+.contact .left .box input::placeholder{
+    text-transform:capitalize;
+    color: #fff;
+}
+.contact .left .box input:focus{
+    outline: none;
+    border: none;
+    background: crimson;
+    color: white;
+}
+.contact .left .box textarea{
+    outline: none;
+    border: none;
+    background: #888787;
+    color: #fff;
+    width: 70%;
+    height: 15vh;
+    padding: 1rem;
+}
+.contact .left .box textarea::placeholder{
+    color: white;
+}
+.contact .left .box textarea:focus{
+    outline: none;
+    border: none;
+    background: crimson;
+    color: white;
+}
+.contact .btn{
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    background: none;
+    border: 2px solid crimson;
+    outline: none;
+    transition: .3s;
+    cursor: pointer;
+}
+.contact .btn:hover{
+    background: crimson;
+    color: white;
+}
+.contact .mid{
+    width: 2px;
+    background-color: crimson;
+}
+.contact .right{
+    flex-basis: 45%;
+}
+.contact .right .top h1{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.contact .right .top p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #5a5a5a;
+    margin-top: .3rem;
+}
+.contact .right .bottom h1{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.contact .right .bottom p{
+    font-size: 1.3rem;
+    width: 70%;
+    text-align: justify;
+    font-weight: 500;
+}
+.contact .right .bottom span{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: .2rem 0 1rem 0;
+    display: block;
+    color: #888787;
+}
+
+/* -----------Footer --------------- */
+footer{
+    background: #888787;
+    position: relative;
+    padding-bottom: 10px;
+}
+footer .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -25px;
+}
+footer .icon img{
+    background-color: crimson;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 20%;
+}
+footer .icon a{
+    text-align: center;
+}
+footer .social{
+    text-align: center;
+    margin-top: 5px;
+}
+footer .social a i{
+    font-size: 3rem;
+    margin: 1rem;
+    color: #cfcece;
+    transition: .2s ease all;
+}
+footer .social a i:hover{
+    color: #fff;
+}
+footer p{
+    font-size: 1.3rem;
+    color: rgba(49, 49, 49, 0.788);
+    font-weight: 600;
+    text-align: center;
+}
